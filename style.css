@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 1.6;
+    color: sienna;
+}
+
+.welcome h1 {
+    font-size: 3.125em;
+    text-transform: capitalize;
+}
+
+header {
+    height: 100vh;
+    background: url('http://traversymedia.com/downloads/assets/beachshowcase.jpg') no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    border: 1px solid sienna;
+    padding: 1em 2em;
+    display: inline-block;
+    color: sienna;
+    border-radius: 1em;
+    margin: 2em;
+}
+
+p {
+    padding: 1em;
+}
+
+.row1,
+.left,
+.right {
+    background-color: sienna;
+    color: white;
+}
+
+.row3 {
+    display: flex;
+}
